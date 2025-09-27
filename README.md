@@ -8,7 +8,7 @@ A modern, fully responsive, single-page portfolio website designed to showcase m
 
 ![Personal Portfolio Website Screenshot](https://github.com/mohseenalihawaldar-dev/portfolio/blob/022e42c0fddd506f684fff2f9f0a96da5b08d814/screenshot.png)
 
-![Personal Portfolio Website Screenshot]([https://github.com/mohseenalihawaldar-dev/portfolio/blob/022e42c0fddd506f684fff2f9f0a96da5b08d814/screenshot.png](https://github.com/mohseenalihawaldar-dev/portfolio/blob/022e42c0fddd506f684fff2f9f0a96da5b08d814/screenshot1.png))
+![Personal Portfolio Website Screenshot](https://github.com/mohseenalihawaldar-dev/portfolio/blob/022e42c0fddd506f684fff2f9f0a96da5b08d814/screenshot1.png)
 
 ---
 
