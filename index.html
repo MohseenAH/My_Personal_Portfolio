@@ -30,7 +30,10 @@
     />
     <meta property="og:type" content="website" />
 
+    <meta property="og:image" content="image/alter.webp" />
+
     <title>Mohseen Ali | Web Developer Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
@@ -40,7 +43,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="icon" type="icon" href="/image/favicon.ico" />
+    <link rel="icon" type="icon" href="image/favicon.ico" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://portfolio-mohseen-ali.netlify.app/" />
@@ -95,12 +98,12 @@
     <!-- ABOUT -->
     <section id="about" class="container reveal">
       <img
-        src="image/about section.webp"
-        alt="Mohseen Ali Hawaldar"
+        src="image/Aboutme.webp"
+        alt="A photograph of Mohseen Ali Hawaldar"
         class="profile-img"
       />
       <div class="content">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <p>
           Hello! My name is <span class="highlight">Mohseen Ali Hawaldar</span>.
         </p>
@@ -125,14 +128,21 @@
 
         <div class="social-links">
           <a
-            href="https://www.linkedin.com/in/mohseen-hawaldar-b726b3305/"
+            href="https://www.linkedin.com/in/mohseenalihawaldar/"
             target="_blank"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/mohseenalihawaldar-dev" target="_blank"
+          <a
+            href="https://github.com/mohseenalihawaldar-dev"
+            target="_blank"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.youtube.com/@mohseenhawaldar346" target="_blank"
+          <a
+            href="https://www.youtube.com/@mohseenhawaldar346"
+            target="_blank"
+            rel="noopener noreferrer"
             ><i class="fa-brands fa-youtube"></i
           ></a>
         </div>
@@ -146,48 +156,56 @@
       <h2>My Projects</h2>
       <div class="project-grid">
         <div class="project-card">
-          <img src="image/vada port.webp" alt="Project 1" />
+          <img src="image/vadapavlp.webp" alt="Project 1" />
           <h3>Landing Page</h3>
           <p>A Modern Landing Page built with HTML, CSS, and JavaScript.</p>
-          <a href="https://mumbaivada-preview.netlify.app/" target="_blank"
+          <a
+            href="https://mumbaivada-preview.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             >Live Demo</a
           >
           |
           <a
             href="https://github.com/mohseenalihawaldar-dev/Vadapav-landing-page"
             target="_blank"
+            rel="noopener noreferrer"
             >GitHub</a
           >
         </div>
         <div class="project-card">
-          <img src="image/port weather api.webp" alt="Project 2" />
+          <img src="image/weatherapi.webp" alt="Project 2" />
           <h3>Weather App</h3>
           <p>Weather forecast app using API integration.</p>
           <a
             href="https://weatherdashboard-by-mohseen.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
             >Live Demo</a
           >
           |
           <a
             href="https://github.com/mohseenalihawaldar-dev/WeatherDashBoard"
             target="_blank"
+            rel="noopener noreferrer"
             >GitHub</a
           >
         </div>
         <div class="project-card">
-          <img src="image/port netflix png.webp" alt="Netflix UI Clone" />
+          <img src="image/netflix.webp" alt="Netflix UI Clone" />
           <h3>Netflix UI Clone</h3>
           <p>A responsive Netflix clone built with HTML, CSS & JavaScript.</p>
           <a
             href="https://streamcore-mohseencloneui.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
             >Live Demo</a
           >
           |
           <a
             href="https://github.com/mohseenalihawaldar-dev/StreamCore-Netflix-UI-Clone"
             target="_blank"
+            rel="noopener noreferrer"
             >GitHub</a
           >
         </div>
@@ -197,7 +215,10 @@
             Check out my other practice projects <strong>Coming soon</strong> on
             GitHub.
           </p>
-          <a href="https://github.com/mohseenalihawaldar-dev" target="_blank"
+          <a
+            href="https://github.com/mohseenalihawaldar-dev"
+            target="_blank "
+            rel="noopener noreferrer"
             >GitHub</a
           >
         </div>
@@ -223,7 +244,7 @@
             <i class="fa-brands fa-js"></i><span>JavaScript</span>
           </div>
           <div class="skill">
-            <i class="fa-brands fa-react"></i><span>React</span>unused classes
+            <i class="fa-brands fa-react"></i><span>React</span>
           </div>
           <div class="skill">
             <!-- Tailwind SVG Icon -->
@@ -371,27 +392,19 @@
     <div class="divider reveal"></div>
 
     <!-- CONTACT -->
-    <section
-      id="contact"
-      class="contact reveal"
-      style="text-align: center; padding: 60px 20px"
-    >
-      <h1>Contact Me</h1>
+    <section id="contact" class="contact reveal">
+      <h2>Contact Me</h2>
       <p>Feel free to connect with me on LinkedIn :</p>
-      <div style="margin-top: 20px">
+
+      <div class="contact-link-wrapper">
         <a
-          href="https://www.linkedin.com/in/mohseen-hawaldar-b726b3305/"
+          href="https://www.linkedin.com/in/mohseenalihawaldar/"
           target="_blank"
           rel="noopener noreferrer"
-          style="
-            font-size: 1.2rem;
-            color: #0077b5;
-            text-decoration: none;
-            margin-right: 30px;
-          "
+          class="contact-link"
         >
-          <i class="fa-brands fa-linkedin" style="margin-right: 8px"></i
-          >LinkedIn
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
         </a>
       </div>
     </section>
