@@ -44,7 +44,6 @@ This project is a static website and does not require any complex build steps.
     ```bash
     git clone https://github.com/mohseenalihawaldar-dev/portfolio.git
     ```
-    *(Replace `your-github-username` and `portfolio-website` with your details!)*
 
 2.  **Navigate to the project directory:**
     ```bash
