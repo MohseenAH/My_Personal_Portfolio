@@ -47,7 +47,7 @@ h3 {
 header {
   background: var(--card-dark);
   border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-  padding: 15px 5%; /* Use percentage for better scaling */
+  padding: 7px 5%;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -59,7 +59,7 @@ header {
   align-items: center;
   max-width: 1200px; /* Constrain width on very large screens */
   margin: 0 auto;
-  gap: 15px;
+  gap: 8px;
 }
 
 .logo {
@@ -95,7 +95,7 @@ header {
 
 .hamburger span {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background: var(--gold-soft);
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -498,7 +498,7 @@ footer {
 /* ========== SMALL PHONES (<= 480px) ========== */
 @media (max-width: 480px) {
   header {
-    padding: 15px 20px; /* Further reduce header padding */
+    padding: 7px 20px; /* Further reduce header padding */
   }
 
   .nav-links-mobile {
@@ -518,7 +518,8 @@ footer {
   }
 
   .container {
-    padding: 20px; /* Less padding on small screens */
+    margin: 10px;
+    padding: 25px 20px; /* Less padding on small screens */
   }
 
   .skills-grid {
